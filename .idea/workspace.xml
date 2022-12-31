@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:classes">
+    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:poo and classes basics">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -62,12 +64,20 @@
       <option name="project" value="LOCAL" />
       <updated>1672477560284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:poo and classes basics">
+      <created>1672483854183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672483854183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
     <MESSAGE value="feat:classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:classes" />
+    <MESSAGE value="feat:poo and classes basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:poo and classes basics" />
   </component>
 </project>
