@@ -1,9 +1,8 @@
-class Dog constructor(
-    private val owner: String
-) {
+class Dog {
+    var owner: Human? = null
     var name: String? = null
 
     fun sayHi() {
-        println("Hi $owner, my name is $name")
+        println("Hi ${owner?.name}, my name is $name")
     }
 }
