@@ -6,4 +6,9 @@ fun main() {
     dog.owner = owner
     dog.name = "Felix"
     dog.sayHi()
+
+    val newOwner = Human()
+    newOwner.name = "Niró"
+    dog.owner = newOwner
+    dog.sayHi()
 }
