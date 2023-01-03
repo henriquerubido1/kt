@@ -16,10 +16,13 @@ class Car constructor(
     fun ride() {
         when {
             !engine.status() -> println("first, turn on")
-            !engine.hasGas() -> println("you have no gas left")
+            !engine.canRide() -> {
+                println("you have no gas left")
+                turnOff()
+            }
             else -> {
                 println("vrun vrun")
-                engine.spendGas()
+                engine.spend()
             }
         }
     }

@@ -1,9 +1,16 @@
 fun main() {
-    val engine = Engine()
-    val car = Car(engine)
+    val engine = CombustionEngine()
+    val car: Car = Car(engine)
     car.turnOn()
-    car.turnOff()
     car.ride()
+    car.ride()
+    car.ride()
+    car.turnOff()
+
+    val tesla: Car = Car(engine).also {
+        it.turnOn()
+        it.ride()
+    }
 }
 
 
