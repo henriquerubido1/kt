@@ -1,4 +1,4 @@
-class CombustionEngine : Engine() {
+class CombustionEngine : EngineImpl() {
     private var gasLevel: Int = 2
 
     override fun spend() {

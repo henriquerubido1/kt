@@ -1,9 +1,9 @@
-class ElectricEngine : Engine() {
+class ElectricEngine : EngineImpl() {
     private var batteryLevel: Int = 1
 
     override fun spend() {
         batteryLevel--
-        println("spending energy, current gas level is: $batteryLevel")
+        println("spending energy, current battery level is: $batteryLevel")
     }
 
     override fun canRide(): Boolean {

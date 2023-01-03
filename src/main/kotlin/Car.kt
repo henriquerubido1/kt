@@ -1,28 +1,24 @@
 class Car constructor(
-    private val engine: Engine
-) {
+    private val engine: EngineImpl
+) : Engine by engine {
     var color: String? = null
 
-    fun turnOn() {
-        println("turning on")
-        engine.turnOn()
-    }
-
-    fun turnOff() {
-        println("turning off")
-        engine.turnOff()
-    }
 
     fun ride() {
         when {
             !engine.status() -> println("first, turn on")
             !engine.canRide() -> {
-                println("you have no gas left")
-                turnOff()
+                when(engine) {
+                    is ElectricEngine -> println("you must recharge")
+                    is CombustionEngine -> println("you must fill the tank")
+                }
             }
             else -> {
-                println("vrun vrun")
                 engine.spend()
+                when(engine) {
+                    is ElectricEngine -> println("car riding")
+                    is CombustionEngine -> println("car riding: vrun vrun")
+                }
             }
         }
     }
