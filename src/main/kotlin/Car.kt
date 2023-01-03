@@ -3,8 +3,25 @@ class Car constructor(
 ) {
     var color: String? = null
 
+    fun turnOn() {
+        println("turning on")
+        engine.turnOn()
+    }
+
+    fun turnOff() {
+        println("turning off")
+        engine.turnOff()
+    }
+
     fun ride() {
-        println("vrun vrun")
+        engine.spendGas()
+        if (engine.status() && engine.hasGas()) {
+            println("vrun vrun")
+        } else if (!engine.hasGas()) {
+            println("you have no gas left")
+        } else {
+            println("first, turn on")
+        }
     }
 
     fun brake() {

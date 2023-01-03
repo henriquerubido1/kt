@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:poo and classes basics">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" afterDir="false" />
+    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:private variables and if/else">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672483854183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:private variables and if/else">
+      <created>1672486166612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672486166612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
     <MESSAGE value="feat:classes" />
     <MESSAGE value="feat:poo and classes basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:poo and classes basics" />
+    <MESSAGE value="feat:private variables and if/else" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:private variables and if/else" />
   </component>
 </project>

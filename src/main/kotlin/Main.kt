@@ -1,6 +1,8 @@
 fun main() {
     val engine = Engine()
     val car = Car(engine)
+    car.turnOn()
+    car.turnOff()
     car.ride()
 }
 
