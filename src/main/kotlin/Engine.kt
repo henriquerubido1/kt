@@ -1,4 +1,4 @@
-open class Engine {
+abstract class Engine {
     private var isOn: Boolean = false
 
     fun turnOn() {
@@ -12,4 +12,8 @@ open class Engine {
     fun status(): Boolean {
         return isOn
     }
+
+    abstract fun canRide(): Boolean
+
+    abstract fun spend()
 }

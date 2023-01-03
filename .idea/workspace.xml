@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:when">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CombustionEngine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ElectricEngine.kt" afterDir="false" />
+    <list default="true" id="be815bae-83d6-427e-a9ff-aafa296f1fd5" name="Changes" comment="feat:inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CombustionEngine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/CombustionEngine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ElectricEngine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ElectricEngine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Engine.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672733481512</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:inheritance">
+      <created>1672735403049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672735403049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,6 +108,7 @@
     <MESSAGE value="feat:poo and classes basics" />
     <MESSAGE value="feat:private variables and if/else" />
     <MESSAGE value="feat:when" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:when" />
+    <MESSAGE value="feat:inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:inheritance" />
   </component>
 </project>

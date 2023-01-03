@@ -1,14 +1,12 @@
 class CombustionEngine : Engine() {
     private var gasLevel: Int = 2
 
-    fun hasGas(): Boolean {
-        return gasLevel > 0
-    }
-
-    fun spendGas() {
+    override fun spend() {
         gasLevel--
         println("spending gas, current gas level is: $gasLevel")
     }
 
-    fun canRide(): Boolean
+    override fun canRide(): Boolean {
+        return gasLevel > 0
+    }
 }
