@@ -14,13 +14,13 @@ class Car constructor(
     }
 
     fun ride() {
-        engine.spendGas()
-        if (engine.status() && engine.hasGas()) {
-            println("vrun vrun")
-        } else if (!engine.hasGas()) {
-            println("you have no gas left")
-        } else {
-            println("first, turn on")
+        when {
+            !engine.status() -> println("first, turn on")
+            !engine.hasGas() -> println("you have no gas left")
+            else -> {
+                println("vrun vrun")
+                engine.spendGas()
+            }
         }
     }
 
